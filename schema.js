@@ -10,7 +10,7 @@ const QueryType = new GraphQLObjectType({
   fields: {
     hello: {
       type: GraphQLString,
-      resolve: () => 'world'
+      resolve: () => 'hackathon'
     }
   }
 })
